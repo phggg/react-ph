@@ -10,23 +10,30 @@
   "author": "phggg <18722050844@163.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/phggg/ph-react-cli"
+    "url": "https://github.com/phggg/react-ph"
   },
   "license": "MIT",
   "bin": {
-    "react-cli-ph": "index.js"
+    "react-ph": "./bin/cli.js"
+  },
+  "engines": {
+    "node": ">=8.9"
   },
   "dependencies": {
     "chalk": "^3.0.0",
     "commander": "^4.1.1",
     "download-git-repo": "^3.0.2",
+    "fs-extra": "^8.1.0",
     "glob": "^7.1.6",
     "handlebars": "^4.7.3",
     "inquirer": "^7.0.4",
     "latest-version": "^5.1.0",
     "log-symbols": "^3.0.0",
     "metalsmith": "^2.3.0",
+    "node-cmd": "^3.0.0",
     "ora": "^4.0.3",
-    "rimraf": "^3.0.2"
+    "request": "^2.88.2",
+    "rimraf": "^3.0.2",
+    "semver": "^7.1.3"
   }
 }
